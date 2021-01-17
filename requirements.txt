@@ -1,0 +1,4 @@
+# Lab_1_parsing
+requests
+bs4
+tqdm
