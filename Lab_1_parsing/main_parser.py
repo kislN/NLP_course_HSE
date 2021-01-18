@@ -1,7 +1,7 @@
 from tqdm import tqdm
 import json
 
-from .parsing_utils import *
+from Lab_1_parsing.parsing_utils import *
 
 
 cats_dict = {
@@ -35,5 +35,6 @@ print(f'Length of the catalog is {len(catalog_list)}')
 corpora_dict = {
     'catalog': catalog_list,
 }
+
 with open("corpora.json", "w") as write_file:
     json.dump(corpora_dict, write_file, ensure_ascii=False)
