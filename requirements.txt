@@ -2,3 +2,13 @@
 requests
 bs4
 tqdm
+
+# Lab_1_parsing
+numpy
+pandas
+pandas_profiling
+nltk
+pymorphy2
+sklearn
+spacy
+wordcloud
